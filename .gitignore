@@ -1,0 +1,8 @@
+# Ignore database configuration if sensitive
+# db.php
+
+# Ignore OS & Editor specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
