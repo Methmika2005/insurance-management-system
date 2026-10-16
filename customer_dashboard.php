@@ -33,11 +33,10 @@ $stmt->close();
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(180deg, rgba(224, 242, 254, 0.35) 0%, rgba(240, 253, 244, 0.50) 100%), 
-                        url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1920&auto=format&fit=crop');
+            /* bg.jpg ලෙස නිවැරදි කර ඇත */
+            background: linear-gradient(135deg, rgba(234, 242, 253, 0.35) 0%, rgba(255, 255, 255, 0.20) 100%), 
+                        url('bg.jpg') no-repeat center center fixed;
             background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
             min-height: 100vh;
             color: #1e293b;
         }
@@ -188,7 +187,7 @@ $stmt->close();
                 </div>
             </div>
 
-            <!-- Card 2: Buy / Pay Insurance (LINKED TO MAKE PAYMENT) -->
+            <!-- Card 2: Buy / Pay Insurance -->
             <div class="col-md-4">
                 <div class="card card-custom h-100 p-4 d-flex flex-column justify-content-between">
                     <div>
